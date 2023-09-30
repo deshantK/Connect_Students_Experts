@@ -1,0 +1,55 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+}
+
+header {
+    position:  fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99%;
+}
+
+.logo{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+
+.nevigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-left: 100px;
+}
+
+.nevigation .btnLogin-popup{
+    width: 120px;
+    height: 40px;
+    background:  transparent;
+    border: 2px, solid;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:  white;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: .5s;
+}
+
+.nevigation .btnLogin-popup:hover{
+    background:  white;
+    color: #162938;
+}
